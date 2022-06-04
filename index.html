@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!--Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Bootstrap Components">
+    <meta name="description" content="Personal portfolio">
+    <meta name="keywords" content="html, html tutorial, bootstrap, bootstrap Components, bootstrap tutorial">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="5 days days">
+    <meta name="author" content="Asif Amir">
+
+
+    <!-- CSS links -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Bootstrap Components</title>
+  </head>
+  <body>
+    <section>
+
+      <!-- Navs & tabs -->
+      <div class="container mb-3">
+
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <!-- item 1 -->
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1-tab-pane" type="button" role="tab" aria-controls="tab1-tab-pane" aria-selected="true">tab1</button>
+          </li>
+          <!-- item 2 -->
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="tab2-tab" data-bs-toggle="tab" data-bs-target="#tab2-tab-pane" type="button" role="tab" aria-controls="tab2-tab-pane" aria-selected="false">tab2</button>
+          </li>
+          <!-- item 3 -->
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#tab3-tab-pane" type="button" role="tab" aria-controls="tab3-tab-pane" aria-selected="false">tab3</button>
+          </li>
+          <!-- item 4 -->
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="tab4-tab" data-bs-toggle="tab" data-bs-target="#tab4-tab-pane" type="button" role="tab" aria-controls="tab4-tab-pane" aria-selected="false">tab4</button>
+          </li>
+        </ul>
+
+        <div class="tab-content" id="tab_content">
+          <div class="tab-pane fade show active" id="tab1-tab-pane" role="tabpanel" aria-labelledby="tab1-tab" tabindex="0">Lorem ipsum, dolor sit amet.</div>
+          <div class="tab-pane fade" id="tab2-tab-pane" role="tabpanel" aria-labelledby="tab2-tab" tabindex="0"><p>Lorem ipsum dolor sit amet.</p></div>
+          <div class="tab-pane fade" id="tab3-tab-pane" role="tabpanel" aria-labelledby="tab3-tab" tabindex="0"><p>Lorem ipsum dolor sit, amet.</p></div>
+          <div class="tab-pane fade" id="tab4-tab-pane" role="tabpanel" aria-labelledby="tab4-tab" tabindex="0"><p>Lorem, ipsum dolor sit amet.</p></div>
+        </div>
+
+      </div>
+      <!-- Carousel -->
+      <div class="container mt-3 mb-3">
+        <div class="row">
+          <div class="col-12">
+
+            <div id="crsl_1" class="carousel slide carousel-fade" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#crsl_1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#crsl_1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#crsl_1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#crsl_1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              </div>
+              <!-- inner -->
+              <div class="carousel-inner">
+
+                <!-- item1 -->
+                <div class="carousel-item active" data-bs-interval="3000">
+                  <img src="images/slider1.jpg" class="d-block w-100" alt="slider1">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Lorem, ipsum, dolor.</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Modi, nemo!</p>
+                  </div>
+                </div>
+
+                <!-- item2 -->
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img src="images/slider2.jpg" class="d-block w-100" alt="slider2">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Lorem, ipsum, dolor.</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, et?</p>
+                  </div>
+                </div>
+
+                <!-- item3 -->
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img src="images/slider3.jpg" class="d-block w-100" alt="slider3">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Lorem, ipsum, dolor.</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, iste.</p>
+                  </div>
+                </div>
+
+                <!-- item4 -->
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img src="images/slider4.jpg" class="d-block w-100" alt="slider4">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Lorem, ipsum dolor.</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Illum, nobis!</p>
+                  </div>
+                </div>
+
+                <!-- buttons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#crsl_1" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#crsl_1" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal/pop-up -->
+      <div class="container mb-3">
+        <div class="row justify-content-center">
+          <div class="col-6">
+            
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary w-100 mb-1" data-bs-toggle="modal" data-bs-target="#modal1">
+              Launch modal
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="modal1Label">Modal</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                  </div>
+                  <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#modal2">
+              Launch centered static modal
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="modal2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modal2Label" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="modal2Label">Modal</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-7 mt-1">
+
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal3" data-bs-whatever="@mdo" data-bs-toggle="tooltip" data-bs-placement="bottom" title="modal">Open modal for @mdo</button>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal3" data-bs-whatever="@fat" data-bs-toggle="tooltip" data-bs-placement="bottom" title="modal">Open modal for @fat</button>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal3" data-bs-whatever="@getbootstrap" data-bs-toggle="tooltip" data-bs-placement="bottom" title="modal">Open modal for @getbootstrap</button>
+
+            <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal3Label" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="modal3Label">New message</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="mb-3">
+                        <label for="user_name" class="col-form-label">Recipient:</label>
+                        <input type="text" class="form-control" id="user_name">
+                      </div>
+                      <div class="mb-3">
+                        <label for="txt" class="col-form-label">Message:</label>
+                        <textarea class="form-control" id="txt"></textarea>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Send message</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Horizontal navs & tabs -->
+      <div class="container mb-3">
+
+        <div class="d-flex align-items-start">
+          <div class="nav flex-column nav-pills me-3" id="h_tab" role="tablist" aria-orientation="vertical">
+            <!-- buttons -->
+            <button class="nav-link active" id="tab1" data-bs-toggle="pill" data-bs-target="#t1" type="button" role="tab" aria-controls="t1" aria-selected="true">tab1</button>
+            
+            <button class="nav-link" id="tab2" data-bs-toggle="pill" data-bs-target="#t2" type="button" role="tab" aria-controls="t2" aria-selected="false">tab2</button>
+            
+            <button class="nav-link" id="tab3" data-bs-toggle="pill" data-bs-target="#t3" type="button" role="tab" aria-controls="t3" aria-selected="false">tab3</button>
+            
+            <button class="nav-link" id="tab4" data-bs-toggle="pill" data-bs-target="#t4" type="button" role="tab" aria-controls="t4" aria-selected="false">tab4</button>
+            
+            <button class="nav-link" id="tab5" data-bs-toggle="pill" data-bs-target="#t5" type="button" role="tab" aria-controls="t5" aria-selected="false" disabled>tab5</button>
+          </div>
+          <!-- content -->
+          <div class="tab-content" id="h_tabContent">
+            <div class="tab-pane fade show active" id="t1" role="tabpanel" aria-labelledby="tab1" tabindex="0"><p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p></div>
+
+            <div class="tab-pane fade" id="t2" role="tabpanel" aria-labelledby="tab2" tabindex="0"><p>Lorem ipsum dolor sit, amet consectetur, adipisicing.</p></div>
+            
+            <div class="tab-pane fade" id="t3" role="tabpanel" aria-labelledby="tab3" tabindex="0"><p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p></div>
+            
+            <div class="tab-pane fade" id="t4" role="tabpanel" aria-labelledby="tab4" tabindex="0"><p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p></div>
+            
+            <div class="tab-pane fade" id="t5" role="tabpanel" aria-labelledby="tab5" tabindex="0"><p>Lorem ipsum dolor sit amet consectetur adipisicing.</p></div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- offcanvas -->
+      <div class="container mb-3">
+        <div class="row">
+          <div class="col-4 w100">
+            <!-- body scrolling with backdrop-->
+            <button class="btn btn-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasLeft" aria-controls="offcanvasLeft">body scrolling with backdrop</button>
+
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasLeft" aria-labelledby="offcanvasLeftLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasLeftLabel">Offcanvas with body scrolling</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <p>Try scrolling the rest of the page to see this option in action.</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-4 w100">
+            <!-- body scrolling without backdrop-->
+            <button class="btn btn-warning" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">body scrolling without backdrop</button>
+
+            <div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasLeftLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasLeftLabel">Offcanvas with body scrolling</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <p>Try scrolling the rest of the page to see this option in action.</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-4 w100">
+            <!-- static offcanvas-->
+            <button class="btn btn-danger" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">body scrolling without backdrop</button>
+
+            <div class="offcanvas offcanvas-top" data-bs-backdrop="static" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasLeftLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasLeftLabel">static offcanvas</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <p>Try scrolling the rest of the page to see this option in action.</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- Collapse -->
+      <div class="container">
+        <div class="row">
+          <div class="col-8">
+
+            <p>
+              <a class="btn btn-danger" data-bs-toggle="collapse" href="#col1" role="button" aria-expanded="false" aria-controls="col1">
+                Link
+              </a>
+              <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#col1" aria-expanded="false" aria-controls="col1">
+                Button
+              </button>
+            </p>
+            <div class="collapse" id="col1">
+              <div class="card card-body">
+                Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Ipsum eos provident, cum cumque? Quia rem voluptatum asperiores voluptates iusto quae.
+              </div>
+            </div>
+
+          </div>
+          <div class="col-4">
+
+            <p>
+              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#colhr" aria-expanded="false" aria-controls="colhr">
+                Horizontal collapse
+              </button>
+            </p>
+            <div style="min-height: 120px;">
+              <div class="collapse collapse-horizontal" id="colhr">
+                <div class="card card-body" style="width: 300px;">
+                  This is some placeholder content for a horizontal collapse. It's hidden by default and shown when triggered.
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </section>
+    
+    <!-- JS links -->
+    <script src="js/pop.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
